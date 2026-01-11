@@ -1,4 +1,4 @@
-# Chain-of-Zoom: Extreme Super-Resolution via Scale Autoregression and Preference Alignment (NeurIPS 2025 Spotlight)
+# Chain-of-Zoom
 
 ---
 ## 🔥 Summary
