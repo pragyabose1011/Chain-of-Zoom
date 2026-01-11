@@ -1,0 +1,5 @@
+inference_results/
+__pycache__/
+ram_swin_large_14m.pth
+experience/
+wandb/
