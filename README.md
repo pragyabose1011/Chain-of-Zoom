@@ -69,9 +69,4 @@ pip install wandb opencv-python basicsr==1.4.2
 pip install --no-deps --extra-index-url https://download.pytorch.org/whl/cu121 xformers==0.0.28.post1
 ```
 
-Please refer to the [OSEDiff](https://github.com/cswry/OSEDiff) repository for training configurations (ex. preparing training data). Now train the SR backbone model:
-```
-bash scripts/train/train_osediff_sd3.sh
-```
-
 
