@@ -34,8 +34,6 @@ python inference_coz.py \
   --vae_path ckpt/SR_VAE/vae_encoder_20001.pt \
   --vlm_lora_path ckpt/VLM_LoRA/checkpoint-10000 \
   --pretrained_model_name_or_path 'stabilityai/stable-diffusion-3-medium-diffusers' \
-  --ram_ft_path ckpt/DAPE/DAPE.pth \
-  --ram_path ckpt/RAM/ram_swin_large_14m.pth \
   --save_prompts;
 ```
 Which will give a result like below:
@@ -56,8 +54,6 @@ python inference_coz_full.py \
   --vae_path ckpt/SR_VAE/vae_encoder_20001.pt \
   --vlm_lora_path ckpt/VLM_LoRA/checkpoint-10000 \
   --pretrained_model_name_or_path 'stabilityai/stable-diffusion-3-medium-diffusers' \
-  --ram_ft_path ckpt/DAPE/DAPE.pth \
-  --ram_path ckpt/RAM/ram_swin_large_14m.pth;
 ```
 
 ## 🚆 Training the SR Backbone Model
